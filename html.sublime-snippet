@@ -1,0 +1,107 @@
+<snippet>
+	<content><![CDATA[
+<label for="${1/[[:alpha:]]+|( )/(?1:_:\L$0)/g}">${1:$TM_SELECTED_TEXT}</label>
+<input type="${2:text}" name="${1/[[:alpha:]]+|( )/(?1:_:\L$0)/g}"  id="${1/[[:alpha:]]+|( )/(?1:_:\L$0)/g}" value="$3" />	
+	$0
+]]></content>
+	<tabTrigger>lab</tabTrigger>
+</snippet>
+
+
+
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>${1}</title>
+	<head>
+	<body>
+		${2}
+	</body>
+</html>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>html</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+
+<snippet>
+	<content><![CDATA[
+<link rel="stylesheet" href="${1:/css/master.css}" type="text/css" media="screen" charset="utf-8">
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>link</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+
+<snippet>
+	<content><![CDATA[
+<script src="${1}" type="text/javascript" charset="utf-8"></script>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>script</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+
+<snippet>
+	<content><![CDATA[
+<table border="0" cellspacing="0" cellpadding="0">
+	<caption>${1:Caption}</caption>
+	<thead>
+		<tr>
+			<th>${2:Header}</th>
+		</tr>
+	</thead>
+	<tbody>	
+		<tr>
+			<td>${3:Data}</td>
+		</tr>
+	</tbody>
+</table>]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>table</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+<snippet>
+	<content><![CDATA[
+<ul>
+	<li>${1}</li>
+</ul>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ul</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+
+<snippet>
+	<content><![CDATA[
+<!--[if IE]> 
+	${1}
+<![endif]-->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ie</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+
+<snippet>
+	<content><![CDATA[
+ 	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/480.css?v=1" media="only screen and (min-width: 480px)">
+	<link rel="stylesheet" href="css/768.css?v=1" media="only screen and (min-width: 768px)">
+	<link rel="stylesheet" href="css/992.css?v=1" media="only screen and (min-width: 992px)">
+	<link rel="stylesheet" href="css/1382.css?v=1" media="only screen and (min-width: 1382px)">
+]]></content>
+	<tabTrigger>mq</tabTrigger>
+</snippet>
+
+
+

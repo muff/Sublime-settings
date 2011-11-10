@@ -1,0 +1,4 @@
+{
+   "cmd": ["/usr/local/bin/jsl", "-process", "$file", "-output-format", "1"],
+   "selector": "source.js"
+}
